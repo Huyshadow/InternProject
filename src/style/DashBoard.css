@@ -1,0 +1,47 @@
+.body_db{
+    background-color: white;
+    width: 90%;
+    height: 70vh;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    color: green;
+    box-shadow: 10px 10px rgba(21, 103, 12, 0.5);
+
+}
+
+.body_db ul {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    list-style: none;
+
+}
+.body_db ul li {
+    margin-bottom: 25px;
+    display: grid;
+    grid-template-columns: 10% 60%;
+    grid-gap: 8%;
+    cursor: pointer;
+}
+.body_db svg {
+    margin-top: 4px;
+
+}
+.last-li {
+    margin-top: 30vh;
+}
+.body_db ul li:hover{
+    translate: -12px;
+    background-color: rgba(119, 193, 119, 0.5);
+    width: 90%;
+    padding-top:5px ;
+    padding-bottom: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 10px;
+}

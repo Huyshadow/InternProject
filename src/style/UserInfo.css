@@ -1,0 +1,27 @@
+.body-userinfo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.body-userinfo img{
+    width: 21%;
+    border-radius: 50%;
+    border: green 4px solid ;
+}
+.body-userInfo-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #267a26;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid rgba(56, 187, 56, 0.5);
+
+}
