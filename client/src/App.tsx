@@ -4,7 +4,7 @@
 import './style/App.css'
 import Home from "./component/Home.tsx";
 
-import StorageRoute from "../route/StorageRoute";
+import StorageRoute from "./route/StoragePage/StorageRoute";
 
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 
