@@ -19,6 +19,8 @@
     align-items: center;
     height: 80%;
     width: 100%;
+    transition: ease-in-out;
+
 }
 
 
@@ -38,9 +40,6 @@
 }
 .body_db ul li:hover{
     background-color: rgba(119, 193, 119, 0.5);
-    padding-top:5px ;
-    padding-bottom: 5px;
-    padding-left: 4px;
-    padding-right: 4px;
+    scale: 1.05;
     border-radius: 10px;
 }

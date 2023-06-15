@@ -3,11 +3,22 @@
 // import viteLogo from '/vite.svg'
 import './style/App.css'
 import Home from "./component/Home.tsx";
-function App() {
+
+import StorageRoute from "../route/StorageRoute";
+
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+
+export interface IAppProps {}
+
+
+const  App:React.FunctionComponent<IAppProps> = () => {
   return (
-      <>
-          <Home/>
-      </>
+      <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home/>}></Route>
+              <Route path="/storage" element={<StorageRoute />}></Route>
+          </Routes>
+      </BrowserRouter>
   )
 }
 
