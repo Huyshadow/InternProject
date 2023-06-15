@@ -1,9 +1,8 @@
-import "../style/DashBoard.css"
+import "../../style/DashBoard.css"
 import {AiOutlineUser,AiFillHome} from 'react-icons/ai'
 import {MdOutlineEmojiTransportation, MdPolicy} from 'react-icons/Md'
 import {CiBag1} from 'react-icons/ci'
 import {GiExitDoor} from 'react-icons/gi'
-
 const DashBoard = () => {
     return (
         <>

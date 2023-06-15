@@ -1,4 +1,4 @@
-import "../style/Notification.css"
+import "../../style/Notification.css"
 import {useReducer} from "react";
 
 const initialState:{count: number} = {count: 0}
@@ -9,11 +9,11 @@ const reducer = (state : {count :number}, action:string):{count:number} => {
         case 'plus':
             return {count: state.count + 1}
         case 'minus':
-            state.count = state.count - 1;
-            if( state.count <= 0) {
-                state.count = 0;
+            let result = state.count - 1;
+            if( result <= 0) {
+                result = 0;
             }
-            return {count: state.count }
+            return {count: result }
 
         default:
             throw new Error('What the heck')

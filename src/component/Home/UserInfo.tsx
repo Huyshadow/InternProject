@@ -1,7 +1,7 @@
 import {useContext} from "react";
 import {DataUser} from "./User.tsx";
 import {useState, useLayoutEffect} from 'react'
-import '../style/UserInfo.css'
+import '../../style/UserInfo.css'
 
 type UserInfo = {
     name: string;

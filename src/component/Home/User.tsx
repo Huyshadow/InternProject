@@ -1,6 +1,6 @@
 import {useState, useEffect, createContext} from "react";
 import UserInfo from "./UserInfo.tsx";
-import '../style/User.css'
+import '../../style/User.css'
 import axios from "axios";
 
 export const DataUser = createContext({})

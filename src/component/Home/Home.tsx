@@ -1,6 +1,6 @@
 // import react from "@vitejs/plugin-react";
 // import {useState} from "react";
-import "../style/Home.css"
+import "../../style/Home.css"
 import DashBoard from "./DashBoard.tsx";
 import User from "./User.tsx";
 import Notification from "./Notification.tsx";
